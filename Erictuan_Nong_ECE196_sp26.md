@@ -7,7 +7,9 @@ This tutorial demonstrates how to implement a Bluetooth Low Energy (BLE) based p
 
 ## Intro Concept / Theory
 
-Bluetooth Low Energy (BLE) operates in the 2.4 GHz band and enables short range wireless communication between devices while maintaining low power consumption. In this project we will implement this through the Generic Attribute Profile (GATT) protocol. This allows the system to transmit real time status/alert notifications based on the sensors. Below is an attached image of the importance of GATT in different applications.
+Wireless communication works by transmitting information through electromagnetic waves that travel through the air. Different wireless technologies operate at different frequencies depending on factors such as range, data rate, interference, and power consumption. Bluetooth Low Energy (BLE) operates in the 2.4 GHz Industrial, Scientific, and Medical (ISM) band, which is commonly used because it is globally available and supports reliable short range communication with relatively low power requirements. BLE is designed specifically for devices that need to exchange small amounts of data efficiently while conserving battery life.
+
+In this project, BLE communication will be implemented using the Generic Attribute Profile (GATT) protocol. GATT organizes data into services and characteristics, allowing the system to transmit real time sensor status updates and alert notifications between devices. Below is an image showing the role of GATT in different BLE applications.
 ![GATT diagram](GATT.png)
 
 From the block diagram:
