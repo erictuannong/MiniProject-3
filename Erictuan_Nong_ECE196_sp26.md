@@ -1,4 +1,4 @@
-# BLE-Based Proximity Alert System using ESP32
+# ECE 196: BLE-Based Proximity Alert System using ESP32
 # By: Erictuan Nong
 ## Abstract
 This tutorial demonstrates how to implement a Bluetooth Low Energy (BLE) based proximity alert system using an ESP32 Dev Board integrated with a mobile application. The implementation covers embedded systems programming. This tutorial builds upon prior ESP32 mini projects by extending BLE communication into a practical application.
